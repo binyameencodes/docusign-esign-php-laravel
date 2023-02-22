@@ -1,5 +1,5 @@
 {
-    "name": "docusign/esign-laravel",
+    "name": "binyameencodes/esign-laravel",
     "description": "",
     "keywords": [
         "swagger",
@@ -21,7 +21,7 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^7.0.1",
-        "docusign/esign-client": "^6.1.0"
+        "docusign/esign-client": "^6.12"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
