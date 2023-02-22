@@ -1,6 +1,6 @@
 <?php
 
-namespace DocuSign\eSign;
+namespace Binyameencodes\eSign;
 
 use DocuSign\eSign\Client\ApiClient;
 use Illuminate\Support\ServiceProvider;
