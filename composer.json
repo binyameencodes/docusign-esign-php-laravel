@@ -7,12 +7,13 @@
         "sdk",
         "api"
     ],
-    "homepage": "http://swagger.io",
-    "license": "proprietary",
+    "homepage": "https://github.com/binyameencodes/esign-laravel",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Binyameen",
+            "email": "binyameencodes@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -29,15 +30,15 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "DocuSign\\eSign\\" : "src/" }
+        "psr-4": { "Binyameencodes\\eSign\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "DocuSign\\eSign\\" : "test/" }
+        "psr-4": { "Binyameencodes\\eSign\\" : "test/" }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DocuSign\\eSign\\ESignServiceProvider"
+                "Binyameencodes\\eSign\\ESignServiceProvider"
             ]
         }
     }
